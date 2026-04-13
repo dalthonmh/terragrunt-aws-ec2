@@ -102,7 +102,7 @@ Edita los valores en cada `env.hcl` y en los `inputs` de cada módulo:
 | Variable                 | LocalStack                         | Producción         |
 | ------------------------ | ---------------------------------- | ------------------ |
 | `app_environment`        | `local`                            | `prod`             |
-| `linux_instance_type`    | `t2.micro`                         | `t2.small`         |
+| `linux_instance_type`    | `t2.micro`                         | `t3.small`         |
 | `linux_root_volume_size` | 8 GB                               | 20 GB              |
 | `linux_data_volume_size` | 8 GB                               | 10 GB              |
 | `volume_type`            | `gp2`                              | `gp3`              |

@@ -18,3 +18,9 @@ variable "vpc_id" {
   type        = string
   description = "ID of the VPC where to create security group"
 }
+
+variable "ssh_key_path" {
+  type        = string
+  description = "Directory where the SSH private key will be saved"
+  default     = "~/.ssh"
+}

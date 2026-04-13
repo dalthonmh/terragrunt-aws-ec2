@@ -20,7 +20,7 @@ variable "app_environment" {
 variable "linux_instance_type" {
   type        = string
   description = "EC2 instance type for Linux Server"
-  default     = "t2.small"
+  default     = "t3.small"
 }
 
 variable "linux_associate_public_ip_address" {

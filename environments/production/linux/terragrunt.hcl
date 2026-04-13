@@ -30,7 +30,7 @@ dependency "security" {
 
 inputs = {
   # EC2
-  linux_instance_type               = "t2.small"
+  linux_instance_type               = "t3.small"
   linux_associate_public_ip_address = true
   linux_root_volume_size            = 20
   linux_data_volume_size            = 10
